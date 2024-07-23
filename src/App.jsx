@@ -29,12 +29,13 @@ function App() {
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url('/src/assets/background-image.jpg')`
+            // backgroundImage: `url('/src/assets/background-image.jpg')`
+          backgroundImage: `url('https://images.pexels.com/photos/6419629/pexels-photo-6419629.jpeg')`
         }}
     >
         
         <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
-            <img className='w-full h-40 mb-2 rounded-lg' src="/src/assets/currency-converter.jpg" />
+            <img className='w-full h-40 mb-2 rounded-lg' src="src/assets/currency-converter.jpg" />
             <form
                 onSubmit={(e) => {
                     e.preventDefault();
