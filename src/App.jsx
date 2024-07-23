@@ -35,7 +35,7 @@ function App() {
     >
         
         <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
-            <img className='w-full h-40 mb-2 rounded-lg' src="https://nordicapis.com/wp-content/uploads/10-APIs-For-Currency-Exchange-Rates-1024x576.jpg" />
+            <img className='w-full h-40 mb-2 rounded-lg' src="https://media.istockphoto.com/id/483424683/photo/euro-and-dollar-symbol-eur-usd-pair.jpg?s=612x612&w=0&k=20&c=sxpJ59whk1IQbv2O22UE0zYEmZ9zZA76-iJBsrsAa_I=" />
             <form
                 onSubmit={(e) => {
                     e.preventDefault();
